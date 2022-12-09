@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  color: #48484a;
+}
+.main-section {
+  width: 400px;
+  margin: 100px auto;
+}
+.main-section h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.horizontal-scroll-days {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.horizontal-scroll-days div {
+  list-style: none;
+  overflow-y: scroll;
+  height: 385px;
+  white-space: nowrap;
+  text-align: center;
+  transform: rotate(270deg) translatex(163px);
+  width: 100px;
+  position: absolute;
+  right: 39%;
+  padding: 5px;
+}
+.horizontal-scroll-days div p {
+  height: 80px;
+  margin: 0 10px 0 0;
+  padding: 8px 10px 10px 10px;
+  font-size: 14px;
+  transform: rotate(90deg);
+}
+.active {
+  font-weight: 700;
+}
+.horizontal-scroll-days div p:hover {
+  cursor: pointer;
+}
+.weather-description {
+  display: flex;
+  align-items: center;
+}
+.weather-description img {
+  height: 80px;
+  width: 80px;
+}
+.weather-description div p {
+  white-space: nowrap;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.weather-description div p:nth-child(1) {
+  font-weight: 700;
+}
+.weather-data-daily {
+  border-left: 1px solid #eb6e4b;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.weather-data-daily .upper-row-data {
+  margin-bottom: 5px;
+}
+.weather-data-daily .upper-row-data,
+.lower-row-data {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.weather-data-daily .upper-row-data div,
+.lower-row-data span {
+  margin: 0 10px;
+}
+.temperature-table-data {
+  margin: 10px;
+}
+.temperature-table-data th,
+.temperature-table-data td {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 15px 5px 0;
+}
+.temperature:hover {
+  cursor: pointer;
+}
+.temperature-table-data td:first-child,
+.sun-timing-table th {
+  color: #8a8a8a;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.sun-timing-table th {
+  font-size: 10px;
+}
+.sun-timing-table {
+  text-align: center;
+}
+.sun-timing-table td {
+  font-size: 14px;
+}
+.sun-timing-table td,
+.sun-timing-table th {
+  padding-right: 10px;
+}
